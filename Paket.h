@@ -17,7 +17,7 @@ public:
 	Paket(); //da keine Implementierung vorhanden ist, Semikolon ; gesetzt
 	virtual ~Paket();
 
-	enum statusWerte{LEER, GEPACKT, VERESAND, ZUGESTELLT}; //eigentlich ein integer,
+	enum statusWerte{LEER, GEPACKT, VERSAND, ZUGESTELLT}; //eigentlich ein integer,
 														//aber Compiler kann ein check machen,
 														//also ueberpruefen
 
@@ -26,6 +26,7 @@ public:
 	void setOrt (string neuerOrt) ;//{ ort = o;}
 	void setGewicht (float neuesGewicht);//  { gewicht = g;}
 	void setStatus (statusWerte neuerStatus);
+
 
 	string leseName(void) const;
 	string leseAdresse (void)const;
