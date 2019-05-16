@@ -6,6 +6,7 @@
  */
 
 #include "DivisionOperator.h"
+#include"Operator.h"
 
 namespace std {
 

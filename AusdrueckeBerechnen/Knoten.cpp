@@ -16,9 +16,9 @@ Knoten::Knoten() {
 
 }
 
-void Knoten::setValue(int neueValue){
-	value = neueValue;
-}
+void Knoten::getValue(){
+
+	};
 
 Knoten::~Knoten() {
 	// TODO Auto-generated destructor stub

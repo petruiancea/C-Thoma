@@ -6,6 +6,7 @@
  */
 
 #include "MinusOperator.h"
+#include"Operator.h"
 
 namespace std {
 
