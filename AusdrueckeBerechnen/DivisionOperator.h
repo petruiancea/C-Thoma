@@ -6,14 +6,14 @@
  */
 
 #include<iostream>
+#include"Operator.h"
 using namespace std;
-#include"Knoten.h"
 #ifndef DIVISIONOPERATOR_H_
 #define DIVISIONOPERATOR_H_
 
 namespace std {
 
-class DivisionOperator {
+class DivisionOperator : public Operator {
 public:
 	DivisionOperator();
 	virtual ~DivisionOperator();

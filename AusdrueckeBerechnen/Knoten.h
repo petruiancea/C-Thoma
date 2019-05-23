@@ -17,9 +17,10 @@ public:
 	Knoten();
 	virtual ~Knoten();
 
-	void getValue();
+	void virtual getValue() = 0;
 
 private:
+	double value;
 };
 
 } /* namespace std */

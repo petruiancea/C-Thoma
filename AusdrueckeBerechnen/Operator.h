@@ -6,10 +6,10 @@
  */
 
 #include<iostream>
+#include"Knoten.h"
 using namespace std;
 #ifndef OPERATOR_H_
 #define OPERATOR_H_
-#include"Knoten.h"
 
 namespace std {
 

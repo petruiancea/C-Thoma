@@ -6,7 +6,6 @@
  */
 
 #include "PlusOperator.h"
-#include"Operator.h"
 
 namespace std {
 

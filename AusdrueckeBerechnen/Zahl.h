@@ -9,7 +9,7 @@
 using namespace std;
 #ifndef ZAHL_H_
 #define ZAHL_H_
-#include"Knoten.h"
+#include "Knoten.h"
 
 namespace std {
 
@@ -18,10 +18,16 @@ public:
 	Zahl();
 	virtual ~Zahl();
 
-	//void setValue(int neuerWert);
+	double getWert() const {
+		return wert;
+	}
+
+	void setWert(double wert) {
+		this->wert = wert;
+	}
 
 private:
-	//int wert;
+	double wert;
 };
 
 } /* namespace std */

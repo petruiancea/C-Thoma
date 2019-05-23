@@ -7,13 +7,13 @@
 
 #include<iostream>
 using namespace std;
-#include"Knoten.h"
+#include"Operator.h"
 #ifndef MINUSOPERATOR_H_
 #define MINUSOPERATOR_H_
 
 namespace std {
 
-class MinusOperator {
+class MinusOperator : public Operator {
 public:
 	MinusOperator();
 	virtual ~MinusOperator();

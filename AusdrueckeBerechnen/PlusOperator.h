@@ -6,14 +6,14 @@
  */
 
 #include<iostream>
+#include"Operator.h"
 using namespace std;
-#include"Knoten.h"
 #ifndef PLUSOPERATOR_H_
 #define PLUSOPERATOR_H_
 
 namespace std {
 
-class PlusOperator {
+class PlusOperator : public Operator {
 public:
 	PlusOperator();
 	virtual ~PlusOperator();

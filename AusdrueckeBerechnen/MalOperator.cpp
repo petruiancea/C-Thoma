@@ -6,7 +6,6 @@
  */
 
 #include "MalOperator.h"
-#include"Operator.h"
 
 namespace std {
 

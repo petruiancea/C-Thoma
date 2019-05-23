@@ -8,7 +8,6 @@
 #include<iostream>
 using namespace std;
 #include "Operator.h"
-#include"Knoten.h"
 
 namespace std {
 
