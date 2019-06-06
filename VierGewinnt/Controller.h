@@ -9,6 +9,13 @@
 #define CONTROLLER_H_
 #include"Model.h"
 
+//Eingabe abfordern, Benutzer wechseln
+//while kein Gewinner treu
+//while(true){
+//	if(keine 4 gleiche Zeichen) weitere steine einfügen
+//	else
+//}
+
 class Controller {
 
 	enum Coin{

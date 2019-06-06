@@ -18,9 +18,11 @@ public:
 	virtual ~View();
 	Model* getModel() const;
 	void setModel(Model* model);
+	void draw();
 
 private:
 	Model *model;
+
 };
 
 
